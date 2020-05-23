@@ -172,7 +172,7 @@
 .jd_chaoshi {
     position: relative;
     width: 100%;
-    height: 380px;
+    /* height: 272px; */
     margin-top: 10px;
     background-color: #fff;
 }
@@ -193,62 +193,54 @@
 
 .jd_chaoshi .left {
     width: 50%;
-    height: 350px;
-    border-right: 3px solid #ccc;
+    margin-bottom: 10px;
+    border-right: 1px solid #ccc;
 }
 .jd_chaoshi .left img {
     width: 100%;
+    border-bottom: 6px solid #fff;
 }
 .jd_chaoshi .right {
+    width: 50%;
     position: absolute;
     top: 30px;
     right: 0;
-    float: right;
+
 }
 .jd_chaoshi .right .top {
-    height: 180px;
     border-bottom: 1px solid #ccc;
 }
 .jd_chaoshi .right .top img {
-    height: 100%;
-}
-.jd_chaoshi .right .bottom {
-    height: 170px;
+    width: 100%;
 }
 .jd_chaoshi .right .bottom img {
-  height: 100%;
+    width: 100%;
 }
-
 
 .jd_chaoshi .left1{
    width: 50%;
-   height: 345px;
 }
 .jd_chaoshi .left1 .top1 {
-    height: 175px;
     border-bottom: 1px solid #cccccc;
+
 }
 .jd_chaoshi .left1 .top1 img{
-    height: 100%;
-}
-.jd_chaoshi .left1 .bottom1 {
-    height: 175px;
+    width: 100%;
+    display: block;
 }
 .jd_chaoshi .left1 .bottom1 img{
-    height: 100%;
+    width: 100%;
+    display: block;
 }
 .jd_chaoshi .right1 {
     position: absolute;
     width: 50%;
     top: 30px;
     right: 0;
-    float: right;
-}
-.jd_chaoshi .right1 {
-    height: 350px;
     border-left: 1px solid #cccccc;
 }
 .jd_chaoshi .right1 img {
-    height: 100%;
+    width: 100%;
+   border-bottom: 2px solid #ffc907;
 }
 /* <!-- 京东超市 区域 end --> */
