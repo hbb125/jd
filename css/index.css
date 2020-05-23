@@ -1,0 +1,254 @@
+
+.jd_layout{
+    width: 100%;
+    /* height: 1000px; */
+    max-width: 640px;
+    /* 是根据iphone5的宽度来说的 */
+    min-width: 320px;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+/* <!-- 搜索框 start --> */
+
+.jd_search {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 40px;
+    position: fixed;
+    z-index: 1000;
+}
+.jd_logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 56px;
+    height: 30px;
+    background: url("../images/jd-sprites.png");
+    background-size: 200px 200px;
+    background-position: 0 -108px;
+}
+.jd_ipt {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding-left: 75px;
+    padding-right: 50px;
+}
+.jd_ipt input {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 30px;
+    border-radius: 15px;
+}
+.jd_ipt::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 83px;
+    width: 20px;
+    height: 20px;
+    background: url("../images/jd-sprites.png");
+    background-size: 200px 200px;
+    background-position: -59px -109px;
+}
+.jd_login {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 30px;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+}
+/* <!-- 搜索框 ebd --> */
+
+/* <!-- 轮播图 start --> */
+.swiper-slide img {
+    width: 100%;
+}
+/* <!-- 轮播图 end --> */
+
+/* <!-- nav 区域 start --> */
+.jd_nav {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #fff;
+    
+}
+.jd_nav ul li p {
+    margin-top: 8px;
+}
+.jd_nav ul li {
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+}
+.jd_nav ul li img {
+    width: 60px;
+    height: 60px;
+}
+
+/* <!-- nav 区域 start --> */
+.active {
+    width: 100%;
+    height: 230px;
+    margin-top: 10px;
+    padding: 0 10px;
+    background-color: #fff;
+    line-height: 30px;
+}
+.active .top .left span {
+    float: left;
+    margin-top: 6px;
+
+   
+}
+.active .top .left span:nth-child(2) {
+    margin-top: 3px;
+    color: #e92322;
+    font-weight: bold;
+}
+.active .top .left img {
+    width: 16px;
+    height: 20px;
+    margin-right: 10px;
+}
+.active .top .left {
+    position: relative;
+}
+.active .top .left span:nth-of-type(3) {
+    position: absolute;
+    left: 115px;
+    color: black;
+}
+.active .top .left span:nth-of-type(4) {
+    position: absolute;
+    left: 150px;
+    color: black;
+}
+.active .top .left div {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 10px;
+    color: white;
+}
+.active .top .right {
+    float: right;
+    margin-top: -30px;
+    color: #666666;
+}
+.bottom {
+    width: 100%;
+    
+}
+.bottom ul li {
+    /* height: 195px; */
+    margin-top: 25px;
+    float: right;
+    width: 33.33%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+.bottom ul li:nth-child(1) {
+    border-right: 1px solid transparent;
+
+}
+.bottom ul li p {
+    margin-top: -10px;
+}
+.bottom ul li img {
+    width: 60%;
+}
+
+/* <!-- 京东超市 区域 start --> */
+.jd_chaoshi {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.jd_chaoshi .jd_top {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom:1px solid #ccc;
+}
+.jd_chaoshi .jd_top span{
+    margin-left: 20px;
+   border-left: 3px solid red;
+   font-weight: bold;
+   padding-left: 4px;
+   padding-top: -20px;
+   color: #7e6d75;
+}
+
+.jd_chaoshi .left {
+    width: 50%;
+    height: 350px;
+    border-right: 3px solid #ccc;
+}
+.jd_chaoshi .left img {
+    width: 100%;
+}
+.jd_chaoshi .right {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    float: right;
+}
+.jd_chaoshi .right .top {
+    height: 180px;
+    border-bottom: 1px solid #ccc;
+}
+.jd_chaoshi .right .top img {
+    height: 100%;
+}
+.jd_chaoshi .right .bottom {
+    height: 170px;
+}
+.jd_chaoshi .right .bottom img {
+  height: 100%;
+}
+
+
+.jd_chaoshi .left1{
+   width: 50%;
+   height: 345px;
+}
+.jd_chaoshi .left1 .top1 {
+    height: 175px;
+    border-bottom: 1px solid #cccccc;
+}
+.jd_chaoshi .left1 .top1 img{
+    height: 100%;
+}
+.jd_chaoshi .left1 .bottom1 {
+    height: 175px;
+}
+.jd_chaoshi .left1 .bottom1 img{
+    height: 100%;
+}
+.jd_chaoshi .right1 {
+    position: absolute;
+    width: 50%;
+    top: 30px;
+    right: 0;
+    float: right;
+}
+.jd_chaoshi .right1 {
+    height: 350px;
+    border-left: 1px solid #cccccc;
+}
+.jd_chaoshi .right1 img {
+    height: 100%;
+}
+/* <!-- 京东超市 区域 end --> */
